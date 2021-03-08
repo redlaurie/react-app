@@ -1,9 +1,9 @@
 import Header from './components/Header'
-
+import Navigation from './components/navigation'
 function App() {
   return (
     <div className="App">
-        <Header />
+        <Navigation />
     </div>
   );
 }
