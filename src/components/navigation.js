@@ -20,7 +20,7 @@ const navLinks = [
 ]
 export default function Navigation () {
     return (
-    <nav ClassName="site-navigation">
+    <nav className="site-navigation">
             <span>My react app</span>
             <ul>
                 { navLinks.map((link, index) => (

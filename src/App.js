@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import Navigation from './components/navigation'
+import './assets/scss/base.scss';
+import Navigation from './components/Navigation'
 function App() {
   return (
     <div className="App">
