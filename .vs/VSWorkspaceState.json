@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\pages"
+    "\\src\\assets",
+    "\\src\\assets\\scss",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\Navigation.js",
+  "SelectedNode": "\\src\\assets\\scss\\_variables.scss",
   "PreviewInSolutionExplorer": false
 }
