@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\scss",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\scss\\_variables.scss",
+  "SelectedNode": "\\src\\pages\\home.js",
   "PreviewInSolutionExplorer": false
 }
