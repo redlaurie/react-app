@@ -1,12 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\scss",
     "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\home.js",
+  "SelectedNode": "\\src\\assets\\scss\\base.scss",
   "PreviewInSolutionExplorer": false
 }

@@ -7,16 +7,16 @@ const navLinks = [
         path:'/'
     },
     {
-        title:'Blog',
-        path:'/blog'
+        title:'Contact',
+        path:'/contact'
     },
     {
         title:'About',
         path:'/about'
     },
     {
-        title:'Login',
-        path:'/login'
+        title:'Portfolio',
+        path:'/portfolio'
     }
 ]
 export default function Navigation () {
@@ -24,7 +24,10 @@ export default function Navigation () {
 
     return (
     <nav className="site-navigation">
-            <span className="menu-title">My react app</span>
+            <div className="row">
+                <span className="menu-title">Joe Tanner</span>
+                <span className="menu-title">Media Producer</span>
+            </div>
             <div className={`menu-content-container ${menuActive && 'active'}`}>
                 <ul>
                     { navLinks.map((link, index) => (

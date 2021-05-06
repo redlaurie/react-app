@@ -13,13 +13,18 @@ export default function Home (){
                 <div class="fullscreen-video-wrap">
                   <video src="/videos/Techdemo.mp4" autoPlay loop muted>
                   </video>
-                </div>
-              
-                <div class="header-content text-md-center">
-                      <h1>Welcome Everyone</h1>
-                      <p>Hi I am also Joe</p>
-                </div>
+                </div>      
             </header>
+            <div class="body-container">
+                <div class="body-container">
+                    <div class="header-content text-md-center">
+                              <h1>Welcome Everyone</h1>
+                              <p>I am originally from Bristol, studying Film Production in Cheltenham. Trying my hand at all the roles within Film, specialising within Producing and Management. 
+                                Having only worked within small part time roles, film has enabled me to work on a much larger scale in a new and exciting industry.
+                              </p>
+                    </div>
+                </div>
+            </div>
             <div class="slider-content text-md-center">
                 <h1>Our Productions</h1>
                 <Carousel slides={slides} autoplay={false} interval={1000}/>
