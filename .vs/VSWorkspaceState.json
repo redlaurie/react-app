@@ -4,10 +4,11 @@
     "\\public",
     "\\src",
     "\\src\\assets",
+    "\\src\\assets\\Data",
     "\\src\\assets\\scss",
     "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\scss\\base.scss",
+  "SelectedNode": "\\src\\pages\\portfolio.js",
   "PreviewInSolutionExplorer": false
 }

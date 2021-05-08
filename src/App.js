@@ -1,8 +1,10 @@
 import './assets/scss/base.scss';
 import Navigation from './components/Navigation'
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect, useRouteMatch} from 'react-router-dom'
 import PageRenderer from './Page-Renderer'
 import Footer from './components/Footer'
+import Post from './components/Post'
+import MasonryPost from './components/Masonry-post'
 
 function App() {
   return (
