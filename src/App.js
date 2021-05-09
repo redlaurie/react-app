@@ -1,11 +1,12 @@
 import './assets/scss/base.scss';
 import Navigation from './components/Navigation'
-import {BrowserRouter as Router, Switch, Route, Redirect, useRouteMatch} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './Page-Renderer'
 import Footer from './components/Footer'
-import Post from './components/Post'
-import MasonryPost from './components/Masonry-post'
+import Post from './pages/Post'
+import Portfolio from './pages/portfolio'
 
+import {MasonryPost} from './'
 function App() {
   return (
     <div className="page-container">
@@ -14,7 +15,8 @@ function App() {
             <div className="App">
                 <Navigation />
                 <Switch>
-                    <Route path="/:page" component={PageRenderer} />
+                    <Route path="/Portfolio" component={Portfolio} />
+                    <Route path="/post/:id" component={Post} />
                     <Route path="/" render={() => <Redirect to="/home" />} />
                     <Route component={() => 404} />
                 </Switch>

@@ -17,7 +17,8 @@ const navLinks = [
     {
         title:'Portfolio',
         path:'/portfolio'
-    }
+    },
+
 ]
 export default function Navigation () {
     const [menuActive, setMenuActive] = useState(false)
