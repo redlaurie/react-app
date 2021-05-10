@@ -2,13 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\videos",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\Data",
+    "\\src\\assets\\Data\\images",
+    "\\src\\assets\\images",
     "\\src\\assets\\scss",
+    "\\src\\assets\\videos",
     "\\src\\components",
-    "\\src\\pages"
+    "\\src\\components\\images"
   ],
-  "SelectedNode": "\\src\\components\\Masonry-post.js",
+  "SelectedNode": "\\src\\pages\\Post.js",
   "PreviewInSolutionExplorer": false
 }
