@@ -7,13 +7,17 @@ export default function MasonryPost({post}){
     const PostID  = post.id
     console.log(PostID)
     const PostImage = post.image
-
+    const windowWidth = window.innerWidth
+    const imageBackground = {backgroundImage: `url(${'/images/'+PostImage})`};
+    
+    console.log(imageBackground)
+    const style = windowWidth > 900 ? {...imageBackground, ...post.style} : imageBackground
     return (
-        <a className="masonry-post overlay" href={"/Post/"+ PostID }>
-            <div className="image-text">
+        <a className="masonry-post overlay" style={style} href={"/Post/"+ PostID }>
+            <div className="image-text" style={{justifyContent: 'flex-end'}}>
                 <div className="col">
                     <h2 className="image-title">{post.title}</h2>
-                        <img src={require('./images/'+PostImage).default} height="100" width="100" class="center" />
+
                     <span className="image-date">{post.date}</span>
                 </div>
             </div>

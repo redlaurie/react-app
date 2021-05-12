@@ -19,9 +19,10 @@ export default function Post(id){
 
                             <div className="col">
                                 <h2 className="image-title">{filteredPost.title}</h2>
-                                <div class="fullscreen-video-wrap">
-                                    <img src={require('./images/'+postImage).default} height="75" width="75" class="center" />
-                                </div>      
+                                    <div class="fullscreen-video-wrap">
+                                      <video src={"/videos/" +postImage} autoPlay loop muted>
+                                      </video>
+                                    </div>     
                                 <span className="image-date">{filteredPost.description}</span>
                             </div>
                         </div>

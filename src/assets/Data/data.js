@@ -14,7 +14,7 @@ export default [
         title: 'GraphQL vs REST',
         categories: ['React', 'JavaScript'],
         link: '#',
-        image: 'JoeTanner.jpg',
+        image: 'JoeTanner2.jpg',
         description: ''
     },
     {
@@ -22,7 +22,7 @@ export default [
         title: 'A Day in the Life of a Programmer',
         categories: ['Tech Culture'],
         link: '#',
-        image: 'JoeTanner.jpg',
+        image: 'Snapchat-2041651421.jpg',
         description: ''
     },
     {
@@ -30,7 +30,7 @@ export default [
         title: 'Brain Hacks for Learning to Program',
         categories: ['Brain Health'],
         link: '#',
-        image: 'JoeTanner.jpg',
+        image: 'Techdemo.mp4',
         description: ''
     },
     {
