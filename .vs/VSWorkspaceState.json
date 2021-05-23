@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\images",
-    "\\public\\videos",
     "\\src",
     "\\src\\assets",
+    "\\src\\assets\\Data",
+    "\\src\\assets\\scss",
     "\\src\\components",
-    "\\src\\components\\images",
-    "\\src\\pages",
-    "\\src\\pages\\images"
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\scss\\_masonry.scss",
+  "SelectedNode": "\\src\\assets\\scss\\_variables.scss",
   "PreviewInSolutionExplorer": false
 }

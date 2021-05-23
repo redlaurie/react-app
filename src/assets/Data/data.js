@@ -2,43 +2,33 @@ import moment from 'moment'
 
 export default [
     {
-        id: '1',
-        title: 'Also Joe',
-        categories: ['Tech Culture'],
-        link: '#',
-        image: 'JoeTanner.jpg',
-        description: 'Hi Im also joe'
-    },
-    {
         id: '2',
-        title: 'GraphQL vs REST',
+        title: 'Pride 7 (2019)',
         categories: ['React', 'JavaScript'],
-        link: '#',
+        link: 'https://www.youtube.com/embed/epbQUYmq55o',
         image: 'JoeTanner2.jpg',
-        description: ''
+        video: '',
+        description: '',
+        released: ''
     },
     {
         id: '3',
-        title: 'A Day in the Life of a Programmer',
+        title: 'Old Bastard (2020)',
         categories: ['Tech Culture'],
-        link: '#',
+        link: 'https://www.youtube.com/embed/oFu-PR_5jPk',
         image: 'Snapchat-2041651421.jpg',
-        description: ''
-    },
-    {
-        id: '4',
-        title: 'Brain Hacks for Learning to Program',
-        categories: ['Brain Health'],
-        link: '#',
-        image: 'Techdemo.mp4',
-        description: ''
+        video: '',
+        description: '',
+        released: ''
     },
     {
         id: '5',
-        title: 'React Vs Vue',
+        title: 'The Days that follow (2021)',
         categories: ['React', 'Vue'],
-        link: '#',
-        image: 'JoeTanner.jpg',
-        description: ''
+        link: 'https://www.youtube.com/embed/TUQcpdMgdrY',
+        image: 'Screenshot_20210514-104757_Snapchat.jpg',
+        video: '',
+        description: '',
+        released: ''
     },
 ]

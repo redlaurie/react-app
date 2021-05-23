@@ -5,25 +5,22 @@ import {Carousel} from '3d-react-carousal';
 export default function Home (){
 
     let slides = [
-                    <img  src="https://picsum.photos/800/300/?random" alt="1" />,
-                    <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
-                    <img  src="https://picsum.photos/800/302/?random" alt="3" />  ,
-                    <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
-                    <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
+                    <img  src="/images/Screenshot_20210514-104757_Snapchat.jpg" alt="1" />,
+                    <img  src="/images/Snapchat-2041651421.jpg" height="500" />  ,
+                    <img  src="/images/JoeTanner2.jpg"/>  , ];
     return (
         <body>
             <header class="v-header">
                 <div class="fullscreen-video-wrap">
-                  <video src="/videos/Techdemo.mp4" autoPlay loop muted>
+                  <video src="/videos/PRIDE7_MD5701_120120.webm" autoPlay loop muted>
                   </video>
                 </div>      
             </header>
             <div class="body-container">
                 <div class="body-container">
                     <div class="header-content text-md-center">
-                              <h1>Welcome Everyone</h1>
-                              <p>I am originally from Bristol, studying Film Production in Cheltenham. Trying my hand at all the roles within Film, specialising within Producing and Management. 
-                                Having only worked within small part time roles, film has enabled me to work on a much larger scale in a new and exciting industry.
+                              <h1>Welcome Everyone!</h1>
+                              <p>Hi my name is Joe Tanner and this is my Film portfolio. Feel free to look around and see my productions
                               </p>
                     </div>
                 </div>

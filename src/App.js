@@ -8,8 +8,9 @@ import Home from './pages/home'
 import Contact from './pages/contact'
 import About from './pages/about'
 import Portfolio from './pages/portfolio'
-
 import {MasonryPost} from './'
+
+
 function App() {
   return (
     <div className="page-container">
