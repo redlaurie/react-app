@@ -13,7 +13,7 @@ export default function MasonryPost({post}){
     console.log(imageBackground)
     const style = windowWidth > 900 ? {...imageBackground, ...post.style} : imageBackground
     return (
-        <a className="masonry-post overlay" style={style} href={"/Post/"+ PostID }>
+        <a className="masonry-post overlay" style={style} href={"/Post"+ "/"+ PostID }>
             <div className="image-text" style={{justifyContent: 'flex-end'}}>
                 <div className="col">
                     <h2 className="image-title">{post.title}</h2>
