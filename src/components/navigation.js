@@ -40,6 +40,6 @@ export default function Navigation () {
                 </ul>
             
             </div>
-            <i className="ionicons icon ion-ios-menu" onClick={()=> setMenuActive(!menuActive)}/>
+            <i className="ionicons icon ion-ios-menu" onClick={(ev)=> setMenuActive(!menuActive)}/>
     </nav>)
 }

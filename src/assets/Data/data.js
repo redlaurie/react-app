@@ -23,10 +23,20 @@ export default [
     },
     {
         id: '5',
-        title: 'The Days that follow (2021)',
+        title: 'The Days that follow (2021) (Coming Soon)',
+        categories: ['React', 'Vue'],
+        link: '',
+        image: 'Screenshot_20210514-104757_Snapchat.jpg',
+        video: '',
+        description: 'This Video is currently not available as it is coming soon',
+        released: ''
+    },
+    {
+        id: '6',
+        title: 'Roommates (2021)',
         categories: ['React', 'Vue'],
         link: 'https://www.youtube.com/embed/TUQcpdMgdrY',
-        image: 'Screenshot_20210514-104757_Snapchat.jpg',
+        image: 'Roommates.png',
         video: '',
         description: '',
         released: ''
