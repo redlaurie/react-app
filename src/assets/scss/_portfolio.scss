@@ -2,13 +2,17 @@
     padding: 2em 0;
 
     h1 {
+	    animation: fadein 2s;
         width: 100%;
         color: $text-color;
         padding: 1.5em 0;
     }
-
+	p{
+		animation: fadein 2s;
+	}
     .featured-posts-container {
         display: flex;
+		animation: fadein 2s;
     }
 
     .bg-white {

@@ -7,10 +7,10 @@
     "\\src\\assets\\Data",
     "\\src\\assets\\Data\\images",
     "\\src\\assets\\Data\\videos",
-    "\\src\\assets\\images",
     "\\src\\assets\\scss",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\Footer.js",
+  "SelectedNode": "\\src\\pages\\home.js",
   "PreviewInSolutionExplorer": false
 }

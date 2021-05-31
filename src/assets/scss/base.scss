@@ -16,7 +16,7 @@ html body {
 video{
 	object-fit: cover;
 	width: 100%;
-	height: 400px;
+	height: 350px;
 	z-index: -1;
 }
 .section{
@@ -47,12 +47,13 @@ video{
 }
 .slider-content{
   z-index:2;
-  background-color: #abacac;
+  background-color: #919191;
 }
 
 .slider-content h1{
   font-size:50px;
   margin-bottom:0;
+  color: white;
   align-items: center;
   display: flex;
   flex-direction:column;
@@ -78,13 +79,14 @@ video{
   justify-content: center;
 }
 .wrapper-content{
- 
+  animation: fadein 2s;
   height: 390px;
-  width: 800px;
+  width: 60%;
   background: white;
   color: grey;
+
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
   justify-content: center;
 }
 .wrapper-content p{
@@ -117,4 +119,23 @@ video{
   margin-left: auto;
   margin-right: auto;
 
+}
+.youtube-content{
+  animation: fadein 2s;
+  height: 390px;
+  width: 800px;
+  background: white;
+  color: grey;
+
+  align-items: center;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }

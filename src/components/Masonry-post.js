@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
-import { generatePath, useRouteMatch } from "react-router-dom";
+
 
 export default function MasonryPost({post}){
     console.log(post.id)

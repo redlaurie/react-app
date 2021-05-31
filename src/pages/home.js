@@ -1,6 +1,6 @@
 import React from 'react'
 import {Carousel} from '3d-react-carousal';
-
+import { Helmet } from 'react-helmet';
 
 export default function Home (){
 
@@ -15,6 +15,9 @@ export default function Home (){
                     <img  src="/images/Snapchat-331436588.jpg" height="500"/>  , ];
     return (
         <body>
+          <Helmet>
+            <title>JoeTannerPortfolio | Home</title>
+          </Helmet>
             <header class="v-header">
                 <div class="fullscreen-video-wrap">
                   <video src="/videos/PRIDE7_MD5701_120120.webm" autoPlay loop muted>
@@ -22,7 +25,7 @@ export default function Home (){
                 </div>      
             </header>
             <div class="body-container">
-                <div class="body-container">
+                <div class="container portfolio">
                     <div class="header-content text-md-center">
                               <h1>Welcome Everyone!</h1>
                               <p>Hi my name is Joe Tanner and this is my Film portfolio. Feel free to look around and see my work

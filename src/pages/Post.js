@@ -1,7 +1,7 @@
 import React, { useRef} from 'react'
 import {Link} from 'react-router-dom';
 import posts from '../assets/Data/data'
-
+import { Helmet } from 'react-helmet';
 
 export default function Post(id){
     console.log(posts)
@@ -17,8 +17,11 @@ export default function Post(id){
 
     return (     
             <div className="body-container" href='#'>
+                <Helmet>
+                    <title>JoeTannerPortfolio | post</title>
+                </Helmet>
                 <div className="header-content text-md-center">
-                    <div className="wrapper-content">
+                    <div className="youtube-content">
                       {posts.filter(post => post.id == id.match.params.id).map(filteredPost => (
                         <div className="header-content text-md-center">
                             <div className="col">
